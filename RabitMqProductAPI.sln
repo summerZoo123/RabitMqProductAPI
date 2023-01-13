@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitMqProductAPI", "RabitMqProductAPI\RabitMqProductAPI.csproj", "{EB2571CE-C2F8-44DE-82F3-448D9F0A6A26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitMQProduct.ConsoleApplication", "RabitMQProduct.ConsoleApplication\RabitMQProduct.ConsoleApplication.csproj", "{43176138-125D-4580-987F-F412DE696A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitMQProduct.ConsoleApplication", "RabitMQProduct.ConsoleApplication\RabitMQProduct.ConsoleApplication.csproj", "{43176138-125D-4580-987F-F412DE696A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitMQProduct.ConsoleApplicationTwo", "RabitMQProduct.ConsoleApplicationTwo\RabitMQProduct.ConsoleApplicationTwo.csproj", "{0D885041-8336-4741-8170-7F818528CDB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{43176138-125D-4580-987F-F412DE696A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43176138-125D-4580-987F-F412DE696A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43176138-125D-4580-987F-F412DE696A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D885041-8336-4741-8170-7F818528CDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D885041-8336-4741-8170-7F818528CDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D885041-8336-4741-8170-7F818528CDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D885041-8336-4741-8170-7F818528CDB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

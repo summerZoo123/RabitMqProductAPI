@@ -13,7 +13,7 @@ namespace RabitMqProductAPI.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
         }
 
         public DbSet<Product> Products { get; set; }

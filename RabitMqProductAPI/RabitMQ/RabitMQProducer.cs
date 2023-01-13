@@ -11,6 +11,8 @@ namespace RabitMqProductAPI.RabitMQ
             //Here we specify the Rabbit MQ Server. we use rabbitmq docker image and use it
             var factory = new ConnectionFactory
             {
+                UserName = "admin",//用户名
+                Password = "123456",//密码
                 HostName = "localhost"
             };
 

@@ -21,7 +21,7 @@ channel.QueueDeclare("product", exclusive: false);
 
 //Set Event object which listen message from chanel which is sent by producer
 var consumer = new EventingBasicConsumer(channel);
-Console.WriteLine($"RabbitMq Client1:");
+Console.WriteLine($"RabbitMq Client2:");
 consumer.Received += (model, eventArgs) =>
 {
     var body = eventArgs.Body.ToArray();
