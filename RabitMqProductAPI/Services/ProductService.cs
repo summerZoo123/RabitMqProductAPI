@@ -1,4 +1,5 @@
-﻿using RabitMqProductAPI.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using RabitMqProductAPI.Data;
 using RabitMqProductAPI.Models;
 
 namespace RabitMqProductAPI.Services
@@ -20,7 +21,11 @@ namespace RabitMqProductAPI.Services
         {
             return _dbContext.Products.Where(x => x.ProductId == id).FirstOrDefault();
         }
-
+        
+        public async Task<Product> GetProductByIdAsync(int id)
+        {
+            return await _dbContext.Products.FirstOrDefaultAsync();
+        }
         public Product AddProduct(Product product)
         {
             var result = _dbContext.Products.Add(product);

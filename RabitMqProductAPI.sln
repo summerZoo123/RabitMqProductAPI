@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitMqProductAPI", "RabitM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitMQProduct.ConsoleApplication", "RabitMQProduct.ConsoleApplication\RabitMQProduct.ConsoleApplication.csproj", "{43176138-125D-4580-987F-F412DE696A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitMQProduct.ConsoleApplicationTwo", "RabitMQProduct.ConsoleApplicationTwo\RabitMQProduct.ConsoleApplicationTwo.csproj", "{0D885041-8336-4741-8170-7F818528CDB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitMQProduct.ConsoleApplicationTwo", "RabitMQProduct.ConsoleApplicationTwo\RabitMQProduct.ConsoleApplicationTwo.csproj", "{0D885041-8336-4741-8170-7F818528CDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitMqProductAPI.EventBus", "RabitMqProductAPI.EventBus\RabitMqProductAPI.EventBus.csproj", "{395C0D01-6A39-4A0B-93AD-E006A68E5CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitMqProductAPI.Common", "RabitMqProductAPI.Common\RabitMqProductAPI.Common.csproj", "{33AD2EC0-1641-4F64-9DB7-AC988A83E75B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{0D885041-8336-4741-8170-7F818528CDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D885041-8336-4741-8170-7F818528CDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D885041-8336-4741-8170-7F818528CDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395C0D01-6A39-4A0B-93AD-E006A68E5CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395C0D01-6A39-4A0B-93AD-E006A68E5CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395C0D01-6A39-4A0B-93AD-E006A68E5CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395C0D01-6A39-4A0B-93AD-E006A68E5CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AD2EC0-1641-4F64-9DB7-AC988A83E75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AD2EC0-1641-4F64-9DB7-AC988A83E75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AD2EC0-1641-4F64-9DB7-AC988A83E75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AD2EC0-1641-4F64-9DB7-AC988A83E75B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
